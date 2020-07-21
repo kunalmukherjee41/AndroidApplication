@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom"
+    android:orientation="vertical"
+    tools:context=".Fragments.ContactusFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="150dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="330dp">
+
+                <TextView
+                    android:text="Android Application"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Contact Us :-"
+                        android:layout_marginTop="100dp"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="160dp"
+                        android:layout_width="wrap_content"
+                        android:text="Phone Number: "
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/phone_number"
+                        android:textSize="18sp"
+                        android:text="+91 9123456789"
+                        android:textStyle="bold"
+                        android:layout_marginTop="200dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Email ID:"
+                        android:layout_marginTop="250dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="abc@gmail.com"
+                        android:layout_marginTop="290dp"
+                        android:textStyle="bold"
+                        android:id="@+id/email"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
